@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .form_wrapper {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 	max-width: 576px;
 }
@@ -33,4 +33,10 @@
 width: calc(100% - 90px);
     display: inline;
     margin-right: 5px;
-    }
+}
+    
+.addr-label{
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+	font-weight: 400;
+}

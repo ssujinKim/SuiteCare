@@ -27,6 +27,7 @@ vo.setLocation(hospname);
 vo.setAddr(hospaddr);
 vo.setDetail_addr(hospdetail_addr);
 vo.setCaretaker_code(caretaker_code);
+vo.setRes_code(res_code);
 
 int result = dao.updatehospaddr(vo);
 

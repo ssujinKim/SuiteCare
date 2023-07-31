@@ -24,6 +24,8 @@ ReservationVO vo = new ReservationVO();
 
 vo.setAddr(addr);
 vo.setDetail_addr(detail_addr);
+vo.setCaretaker_code(caretaker_code);
+vo.setRes_code(res_code);
 
 int result = dao.updateaddr(vo);
 

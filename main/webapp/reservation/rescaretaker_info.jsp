@@ -44,7 +44,13 @@ function recheck() {
 
 function update() {
 	var f = document.tinfoform;
-	f.action = "mypage.jsp";
+	f.action = "../member/mypage.jsp";
+	f.submit();
+}
+
+function callres() {
+	var f = document.detailtinfoForm;
+	f.action = "rescaretaker_call.jsp";
 	f.submit();
 }
 
@@ -57,7 +63,7 @@ function opChange() {
 		outyn.value="";
 		outyn.focus();
 	}	else {
-		outyn.disabled=true;
+		outyn.disabled=false;
 		outyn.value=outop.options[outop.selectedIndex].value;
 	}
 }
@@ -94,6 +100,7 @@ for(int i=0; i<list.size(); i++) {
 	String t_gender = listvo.getT_gender();
 	String diagnosis = listvo.getDiagnosis();
 	
+	session.setAttribute("t_name", t_name);
 	session.setAttribute("caretaker_code", t_code);
 %>
 
@@ -198,6 +205,7 @@ for(int i=0; i<list.size(); i++) {
     
     </td></tr>
 </table>
+<button type="button" onclick="callres();">불러오기</button>
 <button type="button" onclick="reservation();">예약하기</button>
 </form>
 

@@ -7,10 +7,11 @@
    	  url = "jdbc:mysql://localhost:3306/suitecare?serverTimezone=UTC"
    	  factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
       username="root"
-	password="Ktnwls1218*"
+	password="h3219"
 	maxActive="20"
 	maxIdle="10"
 	maxWait="3000"
     driverClassName="com.mysql.jdbc.Driver"
       />
 </Context>
+

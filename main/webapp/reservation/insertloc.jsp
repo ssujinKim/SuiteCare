@@ -17,9 +17,8 @@ String caretaker_code = (String)session.getAttribute("caretaker_code");
 String res_code = (String)session.getAttribute("res_code");
 
 ReservationDAO dao = new ReservationDAO();
-String home = request.getParameter("home");
 
-int result = dao.updatehome(home, caretaker_code);
+int result = dao.updatehome(res_code);
 
 if(result==1) {
 		response.sendRedirect("reshome.jsp");

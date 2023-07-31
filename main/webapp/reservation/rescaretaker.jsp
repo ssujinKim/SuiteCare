@@ -19,7 +19,7 @@ function checkForm() {
 }
 
 function inserttinfo() {
-	window.location.href = "takerinfo.jsp";
+	window.location.href = "../careTaker/takerInfo.jsp";
 }
 </script>
 </head>

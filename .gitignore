@@ -14,6 +14,9 @@ local.properties
 .loadpath
 .recommenders
 
+### Tomcat ###
+context.xml
+
 # External tool builders
 .externalToolBuilders/
 
