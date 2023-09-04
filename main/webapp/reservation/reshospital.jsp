@@ -118,7 +118,7 @@ String r_code = (String)session.getAttribute("r_code");
 		  <input type="button" class="button alt" onclick="reshostop();" value="예약 중지">
 		 <div>
 
-		 <span class="button alt" onclick="location.href='<%=context%>/reservation/location'">뒤로가기</span>
+		 <span class="button alt" onclick="location.href='${context}/reservation/location'">뒤로가기</span>
 		 <input type="submit" class="button special" value="확인">
 		 </div>
 			</div>

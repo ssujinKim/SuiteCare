@@ -105,7 +105,7 @@ function reshstop() {
 			<div class="form_button_three">
 		 <input type="button" class="button alt" onclick="reshstop();" value="예약 중지">
 		 <div>
-		 <span class="button alt" onclick="location.href='<%=context%>/reservation/location'">뒤로가기</span>
+		 <span class="button alt" onclick="location.href='${context}/reservation/location'">뒤로가기</span>
 		 <input type="submit" class="button special" value="확인">
 		 </div>
 			</div>
