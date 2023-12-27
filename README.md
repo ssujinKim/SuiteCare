@@ -1,5 +1,4 @@
 # 스위트케어
-멀티캠퍼스 27회차 1조 최종 프로젝트
 
 ![0001](https://github.com/ssujinKim/SuiteCare/assets/105957412/e9e463ea-7494-4c29-abd7-e3e575cd8b4e)
 ![0002](https://github.com/ssujinKim/SuiteCare/assets/105957412/5ec0a1dc-e34a-4ca0-b246-0425dac8a9f3)
